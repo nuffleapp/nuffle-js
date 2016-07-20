@@ -1,0 +1,35 @@
+{
+  "name": "nuffle",
+  "version": "0.1.0",
+  "description": "Roll a die with any number of sides.",
+  "main": "./lib/nuffle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuffle/nuffle-js.git"
+  },
+  "maintainers": [
+    "zachflower <zach@zacharyflower.com>"
+  ],
+  "keywords": [
+    "d20",
+    "random",
+    "nuffle",
+    "dice"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "sinon": "^1.17.4",
+    "tape": "^4.6.0"
+  },
+  "author": {
+    "name": "Zachary Flower",
+    "email": "zach@zacharyflower.com"
+  },
+  "scripts": {
+    "test": "node test/nuffle.js"
+  },
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "license": "MIT"
+}
