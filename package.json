@@ -32,7 +32,7 @@
     "codecov": "istanbul cover test/*.js && codecov"
   },
   "engines": {
-    "node": ">= 0.8.x"
+    "node": ">= 0.10.x"
   },
   "license": "MIT"
 }
