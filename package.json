@@ -1,6 +1,6 @@
 {
   "name": "nuffle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Roll a die with any number of sides.",
   "main": "./lib/nuffle.js",
   "repository": {
