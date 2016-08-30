@@ -10,6 +10,6 @@ node_js:
   - "node"
 script:
   - npm test
-  - npm coverage
+  - npm run coverage
 after_success:
   - bash <(curl -s https://codecov.io/bash)
