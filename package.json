@@ -19,7 +19,7 @@
   "dependencies": {},
   "devDependencies": {
     "codecov": ">1.0.0",
-    "covert": "^1.1.0",
+    "istanbul": "^0.4.5",
     "sinon": "^1.17.4",
     "tape": "^4.6.0"
   },
@@ -29,7 +29,7 @@
   },
   "scripts": {
     "test": "node test/nuffle.js",
-    "coverage": "covert test/*.js"
+    "codecov": "istanbul cover test/*.js && codecov"
   },
   "engines": {
     "node": ">= 0.8.x"
