@@ -18,6 +18,8 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "codecov": ">1.0.0",
+    "covert": "^1.1.0",
     "sinon": "^1.17.4",
     "tape": "^4.6.0"
   },
@@ -26,7 +28,8 @@
     "email": "zach@zacharyflower.com"
   },
   "scripts": {
-    "test": "node test/nuffle.js"
+    "test": "node test/nuffle.js",
+    "coverage": "covert test/*.js"
   },
   "engines": {
     "node": ">= 0.8.x"

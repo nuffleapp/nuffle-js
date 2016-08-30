@@ -8,5 +8,10 @@ node_js:
   - "6"
   - "iojs"
   - "node"
+install:
+  - npm install --dev
+script:
+  - npm test
+  - npm coverage
 after_success:
   - bash <(curl -s https://codecov.io/bash)
