@@ -10,13 +10,19 @@ Nuffle, The JavaScript Library, is a dice calculator library that provides the f
 
 ### Via npm
 
+Create a package.json file (if necessary):
+
+```
+npm init
+```
+
 Install the library via [npm](https://www.npmjs.com/):
 
 ```
 npm install nuffle --save
 ```
 
-Require it from within your script:
+Require the library from within your script:
 
 ```
 var nuffle = require('nuffle');
